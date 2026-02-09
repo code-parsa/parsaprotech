@@ -475,3 +475,40 @@ body.light-mode a#number {
   color: #1e293b;
   font-weight: 600;
 }
+
+
+@media (max-width: 600px) {
+
+  .container {
+    flex-direction: column; /* ستون بشه */
+    margin: 15px auto;
+  }
+
+  .sidebar,
+  .content {
+    width: 100%; /* هر کدوم کل عرض */
+  }
+
+  .sidebar {
+    padding: 20px 15px;
+  }
+
+  .profile-img {
+    width: 140px;   /* عکس کوچیک‌تر */
+    height: 140px;
+    margin-bottom: 20px;
+  }
+
+  .sidebar h1 {
+    font-size: 1.4rem; /* اسم کوچیک‌تر */
+    line-height: 1.4;
+  }
+
+  .profession {
+    font-size: 0.95rem;
+  }
+
+  .content {
+    padding: 20px 15px;
+  }
+}
