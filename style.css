@@ -477,7 +477,7 @@ body.light-mode a#number {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 
   .container {
     flex-direction: column; /* ستون بشه */
@@ -512,3 +512,4 @@ body.light-mode a#number {
     padding: 20px 15px;
   }
 }
+
