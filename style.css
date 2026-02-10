@@ -10,9 +10,10 @@ body {
   color: #e5e7eb;
   overflow-x: hidden;
 }
-#number{
+#NumberAndEmail{
   text-decoration: none;
   color: #fff;
+  font-size: 19px;
 }
 #smart {
 color: #79fcf3ed;
@@ -23,6 +24,7 @@ margin-top: 15px;
 margin-bottom: 10px;
 }
 #Learner {
+
 color: #3dfcecf3;
 font-size: 1.15em;
 display: flex;
@@ -36,7 +38,7 @@ color: #566573  ;
 body.light-mode #Learner {
 color: #444444;
 }
-body.light-mode #number{
+body.light-mode #NumberAndEmail{
   text-decoration: none;
   color: #0f172a;
 }
