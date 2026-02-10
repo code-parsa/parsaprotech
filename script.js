@@ -99,12 +99,12 @@ const scrollBtn = document.createElement("button");
 scrollBtn.innerHTML = "⬆️";
 scrollBtn.style.cssText = `
   position: fixed;
-  bottom: 25px;
-  left: 25px;
-  padding: 10px 14px;
+  bottom: 15px;
+  left: 15px;
+  padding: 8px 10px;
   border-radius: 50%;
   border: none;
-  font-size: 18px;
+  font-size: 15px;
   cursor: pointer;
   background: #3b82f6;
   color: #fff;
@@ -144,12 +144,11 @@ themeBtn.style.cssText = `
 `;
 document.body.appendChild(themeBtn);
 
-const currentTheme = localStorage.getItem("theme");
-if (currentTheme === "light") {
-  document.body.classList.add("light-mode");
-  themeBtn.innerHTML = "☀️";
-}
-
+// const currentTheme = localStorage.getItem("theme");
+// if (currentTheme === "light") {
+//   document.body.classList.add("light-mode");
+//   themeBtn.innerHTML = "☀️";
+// }
 themeBtn.addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
 
