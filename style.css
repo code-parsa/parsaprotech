@@ -80,10 +80,10 @@ body.light-mode #NumberAndEmail {
 }
 
 .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 290px;
+  height: 270px;
   margin: 0 auto 30px;
-  border-radius: 50%;
+  border-radius: 35%;
   overflow: hidden;
   border: 3px solid #3b82f6;
   box-shadow: 0 0 30px #3b82f6;
@@ -95,7 +95,7 @@ body.light-mode #NumberAndEmail {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 10% 15%;
+  object-position: 90%;
 }
 
 .sidebar h1 {
@@ -231,7 +231,7 @@ body.light-mode #NumberAndEmail {
 /*Responsive*/
 
 /* Tablet (750px–900px) */
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .sidebar {
     width: 35%;
     padding: 25px 15px;
@@ -241,10 +241,10 @@ body.light-mode #NumberAndEmail {
     width: 65%;
     padding: 25px 20px;
   }
-}
+} */
 
 /* Mobile (<750px) */
-@media (max-width: 750px) {
+@media (max-width: 880px) {
   .container {
     flex-direction: column;
   }
@@ -256,8 +256,11 @@ body.light-mode #NumberAndEmail {
   }
 
   .profile-img {
-    width: 150px;
-    height: 150px;
+    max-width: 300px;
+    margin: 15 auto;
+    width: auto;
+    /* height: auto; */
+    object-fit: fill;
     margin-bottom: 20px;
   }
 
